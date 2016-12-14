@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Corpo - Documentation</title>
+
+    <!-- Custom CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/for-documentation.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico"/>
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+                <h1>Welcome To Corpo Theme!</h1>
+                <h2>The Corpo user guide!</h2>
+                <p>Huge thanks for purchasing this template, your support is truly appreciated!</p>
+                <a href="#Introduction">Start!</a>
+            </div>
+    </header>
+
+<div class="container" id="Introduction">
+     <div class="row">
+        <div id="intro">
+          <div class="section-title">
+            <h3>The Corpo Introduction</h3>
+          </div>
+      <p>This documentation will give you an understanding of how The Corpo is structured and guide you in performing common functions. If you require further assistance not covered in this documentation, please contact us in our Support <a href="http://themeforest.net/user/oxes">themeforest.net/user/oxes</a> </p>
+      <br>
+      <b>Author:</b> Alex Sergijenko <br>
+      <b>Email:</b> <a href="mailto:a.sergijenko6415@gmail.com">a.sergijenko6415@gmail.com</a> </div>
+
+    <div id="installation">
+      <div class="section-title">
+        <h3>Installation</h3>
+      </div>
+      <p>Follow the steps below to get started with your Site Template:</p>
+      <ol>
+        <li>Open the <span class="atv">... /Corpo</span> Folder to find all the Templates Files</li>
+        <li>You will need to Upload these files to your Web Server using FTP in order to use it on your Website.</li>
+        <li>Make sure you upload the required files/folders listed below:
+          <ul>
+            <li><i class="fa fa-folder-open-o"></i><span class="atv">HTML/css</span> - Stylesheets Folder</li>
+            <li><i class="fa fa-folder-open-o"></i><span class="atv">HTML/fonts</span> - Fonts Folder</li>
+            <li><i class="fa fa-folder-open-o"></i><span class="atv">HTML/font-awesome</span> - Fonts Awesome Folder</li>
+            <li><i class="fa fa-folder-open-o"></i><span class="atv">HTML/images</span> - Images Folder</li>
+            <li><i class="fa fa-folder-open-o"></i><span class="atv">HTML/assets</span> - Assets Folder</li>
+            <li><i class="fa fa-folder-open-o"></i><span class="atv">HTML/js</span> - Javacripts Folder</li>
+            <li><i class="fa fa-folder-open-o"></i><span class="atv">HTML/mail</span> - mail Folder</li>
+            <li><i class="fa fa-folder-open-o"></i><span class="atv">HTML/video</span> - Video Folder</li>
+          </ul>
+          The other files can be used according to your preferences. </li>
+        <li>You're now good to go..! Start adding your Content and show off your Brand New Beautiful Website in style.</li>
+      </ol>
+    </div>
+
+<!--structure-->
+    <section id="basic-structure">
+      <div class="section-title">
+        <h3>Basic template Structure</h3>
+      </div>
+      <p>The template has a responsive layout and is based on the <strong>Bootstrap V3+ Framework</strong>.  Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. <a target="_blank" href="http://getbootstrap.com/"><strong> Click Here</strong></a> to know more about Bootstrap.</p>
+      <br>
+      <h4>HTML Structure</h4>
+      <p>The general HTML structure is the same throughout the template. Here is the <strong>general HTML structure of the template:</strong></p>
+      <pre class="prettyprint lang-html linenums overflow-auto">
+        &lt;!DOCTYPE html&gt;<br>
+&lt;html lang=&quot;en&quot;&gt;<br>
+  &lt;head&gt;<br>
+    [Page meta, page css, page js files, page title etc...]<br>
+  &lt;/head&gt;<br>
+ &lt;body&gt;<br>
+   &lt;!--Loader --&gt;<br>
+  &lt;!--Navigation --&gt;<br>
+    [NAVIGATION CONTENT]<br>
+  &lt;!--Header --&gt;<br>
+    [HEADER CONTENT]<br>
+  &lt;!--Advantages Section --&gt;<br>
+  &lt;section&gt; <br>
+    [ADVANTAGES SECTION CONTENT] <br>
+  &lt;/section&gt;<br>
+  &lt;!--Image Section --&gt;<br>
+  &lt;section&gt; <br>
+    [IMAGE SECTION CONTENT] <br>
+  &lt;/section&gt;<br>
+  &lt;!--Testimonial Section --&gt;<br>
+  &lt;section&gt; <br>
+    [TESTIMONIAL SECTION CONTENT] <br>
+  &lt;/section&gt;<br>
+  &lt;!--Products Section --&gt;<br>
+  &lt;section&gt; <br>
+    [PRODUCTS SECTION CONTENT] <br>
+  &lt;/section&gt;<br>
+  &lt;!--Blog Section --&gt;<br>
+  &lt;section&gt; <br>
+    [BLOG SECTION CONTENT] <br>
+  &lt;/section&gt;<br>
+  &lt;!--footer --&gt; <br>
+  &lt;footer&gt; <br>
+    [FOOTER_CONTENT] <br>
+  &lt;/footer&gt;<br>
+  [PAGE JAVASCRIPTS HERE]<br>
+ &lt;/body&gt;<br>
+&lt;/html&gt;
+</pre>
+
+<br>
+<br>
+<h4>CSS Structure</h4>
+<p>The general CSS structure is the same throughout the template. Here is the <strong>general CSS structure of the template:</strong></p>
+<pre class="prettyprint lang-html linenums overflow-auto">
+  &lt;!-- Place favicon.ico and apple-touch-icon.png in the root directory --&gt;
+  &lt;link rel="shortcut icon" href="images/favicon.ico"&gt;
+  &lt;!-- Animate.css --&gt;
+  &lt;link rel="stylesheet" href="css/animate.css"&gt;
+  &lt;!-- Bootstrap  --&gt;
+  &lt;link rel="stylesheet" href="css/bootstrap.css"&gt;
+  &lt;!-- Flexslider  --&gt;
+  &lt;link rel="stylesheet" href="css/flexslider.css"&gt;
+  &lt;!-- Theme style  --&gt;
+  &lt;link rel="stylesheet" href="css/style.css"&gt;
+  &lt;!-- Font-awesome plugin --&gt;
+  &lt;link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"&gt;
+    &lt;!-- Loader --&gt;
+    &lt;link href="css/fakeLoader.css" rel="stylesheet"&gt;
+  &lt;!-- Modernizr JS --&gt;
+  &lt;script src="js/modernizr-2.6.2.min.js"&gt;&lt;/script&gt;
+</pre>
+
+<br>
+<br>
+<h4>Javascript Structure</h4>
+<p>The general Javascript structure is the same throughout the template. Here is the <strong>general Javascript structure of the template:</strong></p>
+<pre class="prettyprint lang-html linenums overflow-auto">
+  &lt;!-- jQuery --&gt;
+  &lt;script src=&quot;js/jquery.js&quot;&gt;&lt;/script&gt;
+  &lt;!-- Bootstrap --&gt;
+  &lt;script src=&quot;js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+  &lt;!-- Loader --&gt;
+  &lt;script src=&quot;js/fakeLoader.min.js&quot;&gt;&lt;/script&gt;
+  &lt;!-- Waypoints --&gt;
+  &lt;script src=&quot;js/jquery.waypoints.min.js&quot;&gt;&lt;/script&gt;
+  &lt;!-- Easing --&gt;
+  &lt;script src=&quot;js/jquery.easing.min.js&quot;&gt;&lt;/script&gt;
+  &lt;!-- Flexslider --&gt;
+  &lt;script src=&quot;js/jquery.flexslider-min.js&quot;&gt;&lt;/script&gt;
+  &lt;!-- Visible --&gt;
+  &lt;script src=&quot;js/jquery.visible.min.js&quot;&gt;&lt;/script&gt;
+    &lt;!--WOW.js--&gt;
+    &lt;script src=&quot;js/wow.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script&gt;new WOW().init();&lt;/script&gt;
+  &lt;!-- MAIN JS --&gt;
+  &lt;script src=&quot;js/main.js&quot;&gt;&lt;/script&gt;
+</pre>
+    </section>
+
+<!--favicon-->
+    <section id="favicon-icon">
+      <div class="section-title">
+        <h3>Favicon icon</h3>
+      </div>
+      <p>Favicon is an icon associated with URL that is displayed at various places such as in a browser’s address bar or next to the site name in a bookmark list.</p>
+      
+      <p> You can add a Favicon to your Website using the following code:</p>
+      <pre class="prettyprint lang-html linenums overflow-auto"><span>&lt;link rel=&quot;shortcut icon&quot; href=&quot;images/favicon.ico&quot;/&gt;</span>
+<!--/favicon-->
+</pre>
+    </section>
+
+
+<!--Page Loading Transitions -->
+    <section id="page-loader">
+      <div class="section-title">
+        <h3>Page Loading Transitions</h3>
+      </div>
+      <p>Page Loading Transitions are enabled by default. If you wish to disable the page loading transition you can simply delete below section</p>
+      <pre class="prettyprint lang-html linenums overflow-auto"><span>&lt;div class=&quot;fakeloader&quot;&gt;&lt;/div&gt;</span>
+</pre>
+    </section>
+<!--/Page Loading Transitions -->
+
+  <!--Files -->
+    <section>
+      <div class="section-title" id="files">
+        <h3>FILES</h3>
+      </div>
+      <p>You can find out about HTML and CSS files relations, Styles, Layouts and HomePage layouts.</p>
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th style="width:33%">HTML file</th>
+                <th style="width:33%">CSS file</th>
+                <th style="width:33%">Home-Page-Style</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td> <span class="atv">home-default</span> </td> <td>style.css</td>
+                <td> <span class="atv">Hero Slider</span> </td>
+              </tr>
+              <tr>
+                <td> <span class="atv">home-rain</span> </td> <td>style-rain.css</td>
+                <td> <span class="atv">Rainy Day</span> </td>
+              </tr>
+               <tr>
+                <td> <span class="atv">home-video</span> </td> <td>style-video.css</td>
+                <td> <span class="atv">HTML5 Video</span> </td>
+              </tr>
+            </tbody>
+          </table>
+    </section>
+    <!--/Files--> 
+
+
+
+    <!--Animation-->
+    <section>
+      <div class="section-title">
+        <h3>Animation</h3>
+      </div>
+      <p>Scroll to reveal Animations are latest in the Trends. You can easily add animations to any elements in your website. Animations can be shown on scroll appear and on click action for Out effect. Here is the Sample Code:</p>
+      <pre class="prettyprint lang-html linenums overflow-auto">&lt;div class=&quot;wow bounceInUp&quot;&gt;
+      Content to Reveal Here
+&lt;/div&gt;</pre>
+    <br>
+      <p>Advanced Options:</p>
+      <ul>
+        <li><strong>data-wow-duration:</strong> Change the animation duration</li>
+        <li><strong>data-wow-delay:</strong> Delay before the animation starts</li>
+        <li><strong>data-wow-offset:</strong> Distance to start the animation (related to the browser bottom)</li>
+        <li><strong>data-wow-iteration:</strong> Number of times the animation is repeated</li>
+
+      </ul>
+      <pre class="prettyprint lang-html linenums overflow-auto">&lt;section class=&quot;wow slideInLeft&quot; data-wow-duration=&quot;0.2s&quot; data-wow-delay=&quot;0.5s&quot;&gt;
+      Content to Reveal Here
+&lt;/section&gt;
+&lt;section class=&quot;wow slideInRight&quot; data-wow-offset=&quot;10&quot;  data-wow-iteration=&quot;10&quot;&gt;
+      Content to Reveal Here
+&lt;/section&gt;</pre>
+      
+      <br>
+      <b>Here is the list of the Animation Types you can use:</b>
+      <br>
+      <ul>
+      <li>bounce</li>
+      <li>flash</li>
+      <li>pulse</li>
+      <li>rubberBand</li>
+      <li>shake</li>
+      <li>swing</li>
+      <li>tada</li>
+      <li>wobble</li>
+      <li>bounceIn</li>
+      <li>bounceInDown</li>
+      <li>bounceInLeft</li>
+      <li>bounceInRight</li>
+      <li>bounceInUp</li>
+      <li>bounceOut</li>
+      <li>bounceOutDown</li>
+      <li>bounceOutLeft</li>
+      <li>bounceOutRight</li>
+      <li>bounceOutUp</li>
+      <li>fadeIn</li>
+      <li>fadeInDown</li>
+      <li>fadeInDownBig</li>
+      <li>fadeInLeft</li>
+      <li>fadeInLeftBig</li>
+      <li>fadeInRight</li>
+      <li>fadeInRightBig</li>
+      <li>fadeInUp</li>
+      <li>fadeInUpBig</li>
+      <li>fadeOut</li>
+      <li>fadeOutDown</li>
+      <li>fadeOutDownBig</li>
+      <li>fadeOutLeft</li>
+      <li>fadeOutLeftBig</li>
+      <li>fadeOutRight</li>
+      <li>fadeOutRightBig</li>
+      <li>fadeOutUp</li>
+      <li>fadeOutUpBig</li>
+      <li>flip</li>
+      <li>flipInX</li>
+      <li>flipInY</li>
+      <li>flipOutX</li>
+      <li>flipOutY</li>
+      <li>lightSpeedIn</li>
+      <li>lightSpeedOut</li>
+      <li>rotateIn</li>
+      <li>rotateInDownLeft</li>
+      <li>rotateInDownRight</li>
+      <li>rotateInUpLeft</li>
+      <li>rotateInUpRight</li>
+      <li>rotateOut</li>
+      <li>rotateOutDownLeft</li>
+      <li>rotateOutDownRight</li>
+      <li>rotateOutUpLeft</li>
+      <li>rotateOutUpRight</li>
+      <li>hinge</li>
+      <li>rollIn</li>
+      <li>rollOut</li>
+      <li>zoomIn</li>
+      <li>zoomInDown</li>
+      <li>zoomInLeft</li>
+      <li>zoomInRight</li>
+      <li>zoomInUp</li>
+      <li>zoomOut</li>
+      <li>zoomOutDown</li>
+      <li>zoomOutLeft</li>
+      <li>zoomOutRight</li>
+      <li>zoomOutUp</li>
+</ul>
+</section>
+    <!--/Animation--> 
+
+
+<!--Counter -->
+    <section>
+      <div class="section-title">
+        <h3>Counter</h3>
+      </div>
+      <p>If you want to change "counter" numbers and heading,you can change them in such container,which is located in the "About Section"</p>
+<pre class="prettyprint lang-html linenums overflow-auto">
+        &lt;div class="container"&gt;
+        &lt;div class="row text-center wow fadeInUp"&gt;
+                &lt;div class="col-md-3"&gt;
+                    &lt;span class="fa-stack fa-4x"&gt;
+                        &lt;i class="fa fa-circle fa-stack-2x text-primary"&gt;&lt;/i&gt;
+                        &lt;i class="fa fa-users fa-stack-1x fa-inverse"&gt;&lt;/i&gt;
+                    &lt;/span&gt;
+                    &lt;h3 class="service-heading"&gt;CLIENTS&lt;/h3&gt;
+                     &lt;span class="count"&gt;250&lt;/span&gt;
+                &lt;/div&gt;
+                &lt;div class="col-md-3"&gt;
+                    &lt;span class="fa-stack fa-4x"&gt;
+                        &lt;i class="fa fa-circle fa-stack-2x text-primary"&gt;&lt;/i&gt;
+                        &lt;i class="fa fa-thumbs-o-up fa-stack-1x fa-inverse"&gt;&lt;/i&gt;                      
+                    &lt;/span&gt;
+                    &lt;h3 class="service-heading"&gt;LIKES&lt;/h3&gt;
+                     &lt;span class="count"&gt;1200&lt;/span&gt;
+                &lt;/div&gt;
+                &lt;div class="col-md-3"&gt;
+                    &lt;span class="fa-stack fa-4x"&gt;
+                        &lt;i class="fa fa-circle fa-stack-2x text-primary"&gt;&lt;/i&gt;
+                        &lt;i class="fa fa-line-chart fa-stack-1x fa-inverse"&gt;&lt;/i&gt;                  
+                    &lt;/span&gt;
+                    &lt;h3 class="service-heading"&gt;PROJECTS&lt;/h3&gt;
+                    &lt;span class="count"&gt;125&lt;/span&gt;
+                &lt;/div&gt;
+                &lt;div class="col-md-3"&gt;
+                    &lt;span class="fa-stack fa-4x"&gt;
+                        &lt;i class="fa fa-circle fa-stack-2x text-primary"&gt;&lt;/i&gt;
+                        &lt;i class="fa fa-trophy fa-stack-1x fa-inverse"&gt;&lt;/i&gt;                      
+                    &lt;/span&gt;
+                    &lt;h3 class="service-heading"&gt;AWARDS&lt;/h3&gt;
+                    &lt;span class="count"&gt;50&lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+</pre>
+    </section>
+<!--/Counter -->
+
+
+    <section>
+      <div class="section-title">
+        <h3>Media content</h3>
+      </div>
+      <p>To change Video, Slider, Team, About or Portfolio content, you have to upload your files in such folders.</p>
+      <ul>
+            <li><i class="fa fa-folder-open-o"></i><span class="atv">HTML/images/clients</span> - Clients Pictures</li>
+            <li><i class="fa fa-folder-open-o"></i><span class="atv">HTML/images</span> - Blog,Slider,Person,Products Pictures</li>
+            <li><i class="fa fa-folder-open-o"></i><span class="atv">HTML/Video</span> - HTML5 Video Background</li>
+<p>To change background in Rainy Day style you have to change image source in the home-rain.html file in such line ... image.src = 'http://i.imgur.com/N7ETzFO.jpg';</p>
+<p>
+  To change video background in HTML5 VIDEO style you have to change video file in Video folder and it should be named 'video.mp4'
+</p>
+      </ul>
+  </section>
+<!--/Media-->
+    
+
+<!--Custom -->
+    <section>
+      <div class="section-title">
+        <h3>Custom JS and PHP files</h3>
+      </div>
+      <p>You can change JS effects in custom file MAIN.JS and CONTACT FORM properties in "mail" folder CONTACT_ME.PHP file.</p>
+    </section>
+<!--/Custom -->
+
+<!--Credits -->
+    <section>
+      <div class="section-title" id="credits">
+        <h3>Credits</h3>
+      </div>
+      <p>All images and videos are for preview purposes only and are not included in the download files. Images are of copyrights under Creative Commons CC0.</p>
+    </section>
+<!--/Credits -->
+
+<!--Questions -->
+    <section>
+      <h3>Questions</h3>
+      <p>For questions on basic HTML, Javascript or CSS editing - please give your question a quick Google or visit W3Schools as template issues get top priority. You will need some knowledge of HTML/CSS to edit the template.
+      </p>
+    </section>
+<!--/Questions -->
+
+
+  </div>
+  </div>
+          <footer>
+        <div class="container wow fadeIn">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="wow">
+                    <span class="copyright">Copyright &copy; Corpo Template 2016</span>
+                </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+        <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
