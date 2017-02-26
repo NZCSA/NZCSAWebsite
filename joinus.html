@@ -3,14 +3,20 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Corpo - Creative Multipurpose HTML5 Template</title>
+		<title>New Zealand Chinese Students' Association - 新西兰中国学生联合会</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="assets/img/favicon.ico">
+	    <link rel="apple-touch-icon" href="assets/img/favicon.ico">
+	    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon.ico">
+	    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon.ico">
 		<!-- Animate.css -->
 		<link rel="stylesheet" href="css/animate.css">
 		<!-- Bootstrap  -->
 		<link rel="stylesheet" href="css/bootstrap.css">
+		<!-- Vitality Theme CSS -->
+	    <!-- Uncomment the color scheme you want to use. -->
+	    <link href="css/vitality-red.css" rel="stylesheet" type="text/css">
 		<!-- Flexslider  -->
 		<link rel="stylesheet" href="css/flexslider.css">
 		<!-- Theme style  -->
@@ -25,34 +31,50 @@
 		<!-- Vitality Theme CSS -->
 	    <!-- Uncomment the color scheme you want to use. -->
 	    <link href="css/vitality-red.css" rel="stylesheet" type="text/css">
+
+	    <!-- Old plugin CSS -->
+	  
+	    <style>
+ 			 ::selection{background-color:transparent}
+		</style>
 	</head>
 
 	<body>
 		<!--Loader-->
-		<div class="fakeloader"></div>
+		<!-- <div class="fakeloader"></div> -->
 		
 		<div id="page">
 		<!-- Navigation -->
 		
-		<div id="header">
+		<nav id="header">
 			<div class="container">
 				<div class="header-inner">
-					<h1><a href="index.html">NZCSA<span>.</span></a></h1>
+					<h1><a href="index.html"><img src="images/logo.png" class="img-responsive" alt=""></a></h1>
 					<nav>
 						<ul>
-							<li><a href="products.html">Products</a></li>
-							<li><a href="services.html">Services</a></li>
-							<li><a href="pricing.html">Pricing</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="contact.html">Contact</a></li>
-							<li class="cta"><a href="#advantages">Find Out More...</a></li>
+							<!-- <li>
+								<div class="dropdown">
+								    <a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown <b class="caret"></b></a>
+								    <ul class="dropdown-menu">
+								        <li><a href="#">Action</a></li>
+								        <li><a href="#">Another action</a></li>
+								    </ul>
+								</div>
+							</li> -->
+							<li><a href="index.html">Home</a></li>
+							<!-- <li><a href="aboutus.html">About Us</a></li>
+							<li><a href="events.html">Events</a></li> -->
+							<li><a href="sponsors.html">Sponsors</a></li>
+							<li><a href="careers.html">Career</a></li>
+							<li><a href="join.html">Join Us</a></li>
+							<!-- <li class="cta"><a href="#advantages">Find Out More...</a></li> -->
 						</ul>
 					</nav>
 				</div>
 			</div>
-		</div>
+		</nav>
 		
-		<aside id="hero" class="js-fullheight">
+	<!-- 	<aside id="hero" class="js-fullheight">
 			<div class="flexslider js-fullheight">
 				<ul class="slides">
 			   	<li style="background-image: url(images/slide3.jpg);">
@@ -68,112 +90,129 @@
 			   	</li>
 			  	</ul>
 		  	</div>
-		</aside>
+		</aside> -->
 
-		<div id="career">
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3 text-center heading">
-					<h2 class="heading">OPEN VACANCIES</h2>
-					<p class="underheading">开放职位</p>
-				</div>
-			</div>	
-			<section id="gallery">
-		        <div class="container text-center wow fadeIn">
+		<aside  class="pricing" style="background-image: url('images/Background2.jpg')">
+        <div class="container wow fadeIn">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <h2 style="color:#fff">Join Us</h2>
+                    <p style="text-align:center;">加入我们</p>
+                </div>
+            </div>
+            <div class="row content-row">
+                <div class="col-md-4">
+                    <div class="pricing-item featured-first">
+                        <h3>Volunteer</h3>
+                        <hr class="colored">
+                        <div class="price"><span class="number"><sup></sup></span> 志愿者招募</div>
+                        <ul class="list-group">
+                            <li class="list-group-item"><strong>社交机会</strong> Clear Structure</li>
+                            <li class="list-group-item"><strong>培训机会</strong> Training Opportunities</li>
+                            <li class="list-group-item"><strong>实践经验</strong> Work Experience</li>
+                            <li class="list-group-item">&nbsp;</li>
+                            <li class="list-group-item">&nbsp;</li>
+                            <li class="list-group-item">&nbsp;</li>
+                        </ul>
+                        <a href="https://docs.google.com/forms/d/1ERanJOeCVa2oP5hs4ONdWiJjr2wQ66rTGhvmVMCKUzQ/viewform?embedded=true" data-toggle="modal" class="btn btn-outline-dark">Sign Up</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pricing-item featured">
+                        <h3>Membership</h3>
+                        <hr class="colored">
+                        <div class="price"><span class="number"><sup>$</sup>5</span> / year</div>
+                        <ul class="list-group">
+                            <li class="list-group-item"><strong>社交娱乐</strong> Social Events</li>
+                            <li class="list-group-item"><strong>旅游户外</strong> Outdoor Activities</li>
+                            <li class="list-group-item"><strong>就业讲坛</strong> Workshops</li>
+                            <li class="list-group-item"><strong>实习兼职</strong> Internships and Part-time</li>
+                            <li class="list-group-item"><strong>《学堂》补习社</strong> Tutorials</li>
+                            <li class="list-group-item"><strong>商家折扣</strong> Discounts</li>
+                        </ul>
+                        <a href="https://docs.google.com/a/nzcsa.com/forms/d/e/1FAIpQLSd2BUhWHiCignIexyOQf9EExaTzkkaQce4CCqcQPND2Nu_6tg/viewform" data-toggle="modal" class="btn btn-outline-dark">Sign Up</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="pricing-item featured-last">
+                        <h3>Committee</h3>
+                        <hr class="colored">
+                        <div class="price"><span class="number"><sup></sup></span> 理事会招募</div>
+                        <ul class="list-group">
+                            <li class="list-group-item"><strong>专业架构</strong> Clear Structure</li>
+                            <li class="list-group-item"><strong>顶尖团队</strong> Talented Team</li>
+                            <li class="list-group-item"><strong>实践经验</strong> Work Experience</li>
+                            <li class="list-group-item"><strong>管理培训</strong> Skill Development</li>
+                            <li class="list-group-item"><strong>社交机会</strong> Networking</li>
+                            <li class="list-group-item"><strong>提升就业力</strong> Enhanced CV</li>
+                        </ul>
+                        <a href="careers.html" class="btn btn-outline-dark">Open Vacancies</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
 
-		            <div class="row content-row">
-		                <div class="col-lg-12">
-		                    <div class="portfolio-filter">
-		                        <ul id="filters" class="clearfix">
-		                            <li>
-		                                <span class="filter active" data-filter="exec dof sc it mk hr op bd">All</span>
-		                            </li>
-		                            <li>
-		                                <span class="filter" data-filter="exec">Executive Team</span>
-		                            </li>
-		                            <li>
-		                                <span class="filter" data-filter="dof">Finance</span>
-		                            </li>
-		                            <li>
-		                                <span class="filter" data-filter="sc">Secretarial</span>
-		                            </li>
-		                            <li>
-		                                <span class="filter" data-filter="it">IT</span>
-		                            </li>
-		                            <li>
-		                                <span class="filter" data-filter="mk">Marketing</span>
-		                            </li>
-		                            <li>
-		                                <span class="filter" data-filter="hr">Human Resources</span>
-		                            </li>
-		                            <li>
-		                                <span class="filter" data-filter="op">Operations</span>
-		                            </li>
-		                            <li>
-		                                <span class="filter" data-filter="bd">Business Development</span>
-		                            </li>
-		                        </ul>
-		                    </div>
-		                </div>
-		            </div>
-
-		           <div class="row">
-		                <div class="col-lg-12">
-		                    <div id="portfoliolist">
-
-		                      
-
-		                         <div class="portfolio bd" data-cat="bd" href="#bd3" data-toggle="modal">
-		                            <div class="portfolio-wrapper">
-		                                <img src="images/vacancies/bd/bd_3.png" alt="">
-		                                <div class="caption">
-		                                    <div class="caption-text">
-		                                        <a class="text-title">Fundraising Manager</a>
-		                                        <span class="text-category">Business Development</span>
-		                                    </div>
-		                                    <div class="caption-bg"></div>
-		                                </div>
-		                            </div>
-		                        </div>
-								
-
-								
-		                       <div class="portfolio bd" data-cat="bd" href="#bd5" data-toggle="modal">
-		                            <div class="portfolio-wrapper">
-		                                <img src="images/vacancies/bd/bd_5.png" alt="">
-		                                <div class="caption">
-		                                    <div class="caption-text">
-		                                        <a class="text-title">Junior Stakeholder Analyst</a>
-		                                        <span class="text-category">Business Development</span>
-		                                    </div>
-		                                    <div class="caption-bg"></div>
-		                                </div>
-		                            </div>
-		                        </div>					
-
-		                        <div class="portfolio bd filled" data-cat="bd" href="#bd6" data-toggle="modal">
-		                            <div class="portfolio-wrapper">
-		                                <img src="images/vacancies/bd/bd_6.png" alt="">
-		                                <div class="caption">
-		                                    <div class="caption-text">
-		                                        <a class="text-title">Junior Fundraising Analyst</a>
-		                                        <span class="text-category">Business Development</span>
-		                                    </div>
-		                                    <div class="caption-bg"></div>
-		                                </div>
-		                            </div>
-		                        </div>
-		                    </div>
-		                </div>
-		            </div>   
-		        </div>
-		    </section> 	
-
-				
-		</div>
+  
+    <!-- Example Modal 5 - Volunteer Sign Up -->
+   <!--   <div class="portfolio-modal modal fade" id="volunteerSignUp" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/bg-4.jpg')">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <img src="assets/img/logo@2x.png" class="img-responsive img-centered" alt="">
+                            <h2>Volunteer Sign Up</h2>
+                            <hr class="colored">
+                            <p>Sorry, this function is currently unavailable, please click the button below and we will redirect to the registration form.</p>
+                        </div>
+                        <div class="col-lg-12">
+                            <a href="https://docs.google.com/forms/d/1ERanJOeCVa2oP5hs4ONdWiJjr2wQ66rTGhvmVMCKUzQ/viewform?embedded=true" class="btn btn-default"><i class="fa fa-times"></i>Sign-up</a>
+                            <iframe src="https://docs.google.com/forms/d/1Irv8rSku2zkFpob56m6X6-2E9pAJ8m577FoPbyx_q9E/viewform?embedded=true" width="760" height="1580" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  -->
+    <!-- Example Modal 6 - Membership Sign Up -->
+   <!--  <div class="portfolio-modal modal fade" id="membershipSignUp" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('assets/img/portfolio/bg-4.jpg')">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <img src="assets/img/logo@2x.png" class="img-responsive img-centered" alt="">
+                            <h2>2016 Membership Sign-up</h2>
+                            <hr class="colored">
+                            <p>Sorry, this function is currently unavailable, please click the button below and we will redirect to the registration form.</p>
+                        </div>
+                        <div class="col-lg-12">
+                            <a href="http://goo.gl/forms/XBggHqkvBk" class="btn btn-default"><i class="fa fa-times"></i>Sign-up</a>
+                            <iframe src="https://docs.google.com/forms/d/1Irv8rSku2zkFpob56m6X6-2E9pAJ8m577FoPbyx_q9E/viewform?embedded=true" width="760" height="1580" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+		
 		
 		
 		<!--Contact Info-->
-		<div class="contact animate-box">
+		<!-- <div class="contact animate-box">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3">
@@ -224,143 +263,51 @@
 			</div>	
 		</div>
 
-		<div id="map" class="animate-box" data-animate-effect="fadeIn"></div>
+		<div id="map" class="animate-box" data-animate-effect="fadeIn"></div> -->
 	
 		<!--Footer Section-->
 		<footer id="footer">
-			<div class="container">
-				<div class="col-md-3 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
-					<h3>About Us</h3>
-					<p>Lorem ipsum dolor sit amet, velit putant referrentur in cum, vix admodum tractatos necessitatibus ad, dolore libris eu eum.</p>
-				</div>
-				<div class="col-md-3 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
-					<h3>Our Services</h3>
-					<ul class="float">
-						<li><a href="#">Unique &amp; Clean</a></li>
-						<li><a href="#">Flexible Layout</a></li>
-						<li><a href="#">Trendy Design</a></li>
-						<li><a href="#">HTML5 &amp; CSS3</a></li>
-					</ul>
-				</div>
-				<div class="col-md-3 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
-					<h3>Our Services</h3>
-					<ul class="float">
-						<li><a href="#">Unique &amp; Clean</a></li>
-						<li><a href="#">Flexible Layout</a></li>
-						<li><a href="#">Trendy Design</a></li>
-						<li><a href="#">HTML5 &amp; CSS3</a></li>
-					</ul>
-				</div>
-				<div class="col-md-3 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
-					<h3>Follow Us</h3>
-					<ul class="social">
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-					</ul>
-				</div>
-				<div class="col-md-12 copyright text-center">
-					<p>&copy; Copyright 2016 <a href="#">Corpo</a> All Rights Reserved</p>	
-				</div>
+		<div class="container">
+			<div class="col-md-3 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
+				<h3>About Us</h3>
+				<p>The New Zealand Chinese Students’ Association (NZCSA) is a charitable student society. The aim of the Association is to serve Chinese students in New Zealand by way of promoting Chinese culture and to act as a bridge between the Chinese student community and the New Zealand mainstream community.</p>
 			</div>
-		</footer>
+			<div class="col-md-3 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
+				<h3>Our Events</h3>
+				<ul class="float">
+					<li><a href="#">Upcoming Events</a></li>
+					<li><a href="#">Past Events</a></li>
+					<li><a href="#">Photo Gallery</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-md-3 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
+				<h3>Join Us</h3>
+				<ul class="float">
+					<li><a href="#">Committee</a></li>
+					<li><a href="#">Membership</a></li>
+					<li><a href="#">Volunteer</a></li>
+					<li><a href="#">WeChat Group</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
+				<h3>Follow Us</h3>
+				<ul class="social">
+					<!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+					<li><a href="https://www.facebook.com/nzcsa/"><i class="fa fa-facebook"></i></a></li>
+					<!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
+					<li><a href="https://www.instagram.com/nzcsa/"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://www.linkedin.com/company/new-zealand-chinese-student-association"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="#"><i class="fa fa-wechat"></i></a></li>
+				</ul>
+			</div>
+			<div class="col-md-12 copyright text-center">
+				<p>&copy; Copyright 2017 <a href="#">NZCSA</a> All Rights Reserved</p>	
+			</div>
 		</div>
-	<div class="portfolio-modal modal fade" id="bd3" tabindex="-1" role="dialog" aria-hidden="true" style="background-image: url('images/portfolio/bg-05.jpg')">
-		        <div class="modal-content">
-		            <div class="close-modal" data-dismiss="modal">
-		                <div class="lr">
-		                    <div class="rl">
-		                    </div>
-		                </div>
-		            </div>
-		            <div class="modal-body">
-		                <div class="container">
-		                    <div class="row">
-		                        <div class="col-lg-8 col-lg-offset-2">
-		                            <img src="images/logo.png" class="img-responsive img-centered" alt="">
-		                            <h2>Fundraising Manager</h2>
-		                             <hr class="colored">
-		                            <a href="#">
-		                                <h3>Position Overview</h3>
-		                            </a>
-		                            <br />
-		                            <br />
-		                            <p>
-		                                Starting in 1996, The New Zealand Chinese Students’ Association (NZCSA) 
-										began its life as a student initiative to connect the Chinese students in New Zealand who shared the same vision, providing them with a chance to expand their capabilities as well as associate with like-minded young leaders. </p>
-									<p>Since then, NZCSA has gone from strength to strength becoming the largest 
-										Chinese student organisation while establishing itself as a reputable entity in the local community. NZCSA sees around 1000 new members each year and currently has a committee of 50 students.
-									</p>
-									<br/>
-									<br/>
-									<h3>About This Position</h3>
-		                            <p>
-		                                We are looking for someone to join the NZCSA team as a Fundraising Manager for the year 2016. You will be working alongside like-minded students from the whole Committee to tackle problems in different areas.
-		                            </p>
-									<p>As a Fundraising Manager You will have the opportunity to learn and get first-hand experience on:
-									</p>
-									<br/>
-									<p>
-										<ul>
-											<li>Running the fundraising of Non-Profit or Profit events.</li>
-											<li>Communicate with other business or companies and looking for the valuable sponsors and promote NZCSA.</li>
-											<li>Assist the Director of BD and Associate Director if BD.</li>
-											<li>Help and lead the Fundraising team.</li>
-											<li>Communicating with the other departments in NZCSA.</li>
-										</ul>
-									</p>
-									<br/>
-									<br/>
-									<h3>The Ideal Person</h3>
-		                            <p>
-		                                We are looking for someone who is as passionate about making a change as we are. As a Fundraising Manager and a student, we don’t expect you to know everything, but we do expect that you have the desire and the ability to learn.
-		                            </p>
-		                            <br />
-									<p>These additional qualities will just be a bonus:</p>
-		                            <br />
-									<p>
-										<ul>
-											<li>The ability to work coherently in a team</li>
-											<li>Great initiative – always learning and on the lookout for better ways to do things</li>
-											<li>Excellent communication and writing skills in English and Chinese</li>
-											<li>Experience in organisational capacity</li>
-											<li>Experience in research</li>
-										</ul>
-									</p>
-									<br/>
-									<br/>
-									<h3>What we offer</h3>
-										<br />
-									<p>
-										<ul>
-											<li>A platform to show your skills to the world</li>
-											<li>Practical experience in a broad range of skills sets</li>
-											<li>All the necessary training and guidance</li>
-											<li>A very friendly and open organisational culture</li>
-											<li>Flexible work options</li>
-											<li>A chance to shape the student and wider community</li>
-										</ul>
-									</p>
-		                            <br />
-									<p>If you are looking to change yourself and these around you, this is a position that will give you plenty of exposure and experience needed for anything you want to do after University.
-									</p>
-									<br/>
-									<p>We have big plans for this year, and are actively seeking a talented and passionate team to help this effort and grow with the organisation.</p>
-		                        </div>
-		                        <div class="col-lg-8 col-lg-offset-2">
-		                             <button type="button" class="btn btn-default"><i class="fa fa-circle-o"></i>
-		                            <a href="javascript:void( window.open('http://goo.gl/forms/PlNPORPImi
-		', 'blank','scrollbars=yes,toolbar=no,width=700,height=500'))">Apply(Google)</a></button> 
-									<button type="button" class="btn btn-default"><i class="fa fa-circle-o"></i>
-		                            <a href="javascript:void( window.open('http://www.nzcsa.com/NonGoogleApply.html', 'blank','scrollbars=yes,toolbar=no,width=700,height=500'))">Apply(non-google)</a></button> 
-		                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-		                        </div>
-		                    </div>
-		                </div>
-		            </div>
-		        </div>
-	</div>	
+		</footer>
+	</div>
+	
 	<!--Scripts-->
 	<!-- jQuery -->
 	<script src="js/jquery.js"></script>
@@ -375,11 +322,11 @@
 	<!-- Flexslider -->
 	<script src="js/jquery.flexslider-min.js"></script>
 	<!-- Google Map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-	<script src="js/google_map.js"></script>
+	<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script> -->
 	<!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+   <!-- <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script> -->
 	<!-- Visible -->
 	<script src="js/jquery.visible.min.js"></script>
      <!--WOW.js-->
@@ -389,13 +336,7 @@
 	<script src="js/main.js"></script>
 
 	<!-- old -->
-	<script src="js/old/plugins/jquery.easing.min.js"></script>
-    <script src="js/old/plugins/classie.js"></script>
-	<script src="js/old/plugins/cbpAnimatedHeader.js"></script>
-	<script src="js/old/plugins/owl-carousel/owl.carousel.js"></script>
-	<script src="js/old/plugins/jquery.magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="js/old/plugins/jquery.fs.wallpaper.js"></script>
-    <script src="js/old/plugins/jquery.mixitup.js"></script>
+	
     
 
 	<!-- Vitality Theme Scripts -->

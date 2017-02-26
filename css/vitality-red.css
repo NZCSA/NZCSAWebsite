@@ -45,11 +45,11 @@ section.bg-gray {
     background: rgba(34,34,34,.5);
 }
 
-body {
+/*body {
     font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-weight: 300;
-}
+}*/
 
 a {
     color: #333;
@@ -64,11 +64,11 @@ a:focus {
     color: inherit;
 }
 
-p {
+/*p {
     font-size: 18px;
     line-height: 1.5;
 	text-align: left;
-}
+}*/
 
 ul{
 	text-align: left;
